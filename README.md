@@ -25,6 +25,11 @@ Now, change *Boot disk* **Debian** GNU/Linux 10 (buster) to  **Ubuntu** 18.04 LT
 - **Firewall** check both http and https traffic</br>
   Click on **Create** 
 
+### GCP VPC Rules for jenkins
+
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/vpc.png)
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/vpc2.png)
+
 Come back to Compute Engine Dashboard and do *SSH*(Secure Shell) with your instance. After SSH, we have to install Jenkins in our instance.</br>
 first thing first we need to install java in our instance because jenkins bulid in java.</br>
 To install java copy paste these command in your your ubuntu machine
