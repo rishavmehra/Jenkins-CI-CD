@@ -85,3 +85,23 @@ NOW, We are in the Jenkins Dashboard.
  We are going to deploy NodeJS app in Jenkins.
 
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/image.png)
+
+Install some additional Plugins in jenkins like NodeJs plugins. TO install this plugins follow these steps:
+- Click on **Manage Jenkins**
+- Next, click on **Manage Plugins**
+- Go to Available, and search for ***NodeJS***
+- install this Plugins without restart
+
+After installing *NoedJS* plugin, go to Global Tool Configuration and follow these steps:
+- Go to NodeJS section
+- Click Add NodeJS to add NodeJS installation options that we want to provide to project which will use it. For now, we will add the latest version of NodeJS provided by Jenkins and another version
+- Click Save
+  ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/nodever.png)
+
+### Create a new Jenkins Job
+- Select New Item sidebar menu on Jenkins
+- Type “JenkinsCICD” for the Jenkins Job’s name
+- Select Freestyle project
+  
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/newitem.png)
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/newitem2.png)
