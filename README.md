@@ -18,3 +18,6 @@ In this Project, we will build a simple Node.js app that hosted on GCP VM instan
 
 * Select Create Instance
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/instance.png)
+
+Create Instance with ec2-medium(2 vCPU, 4GB Memory)
+Now, change *Boot disk* Debian GNU/Linux 10 (buster) to  Ubuntu 18.04 LTS
