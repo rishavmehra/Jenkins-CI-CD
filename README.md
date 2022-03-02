@@ -102,6 +102,27 @@ After installing *NoedJS* plugin, go to Global Tool Configuration and follow the
 - Select New Item sidebar menu on Jenkins
 - Type “JenkinsCICD” for the Jenkins Job’s name
 - Select Freestyle project
-  
+
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/newitem.png)
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/newitem2.png)
+
+- Click OK
+- On Source Code Management section, paste “node-app” GitHub repository url to Repository URL field. You could specify which branch of the repository you want to use to build your project. Now, we will select master branch
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/git.png)
+
+- On Build Enviroment, check on the *Provide Node & npm bin/ folder to PATH*
+  
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/builden.png)
+
+- Now click on ***Build***, and these commands
+```
+echo "hey Rishav!"
+npm install
+npm run serve
+```
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/build.png)
+
+- Click on *Save*
+- If you want to do the Build manually you could click on Build Now which is on the sidebar menu of your JenkinsCICD project
+  
+  ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/final.png)
