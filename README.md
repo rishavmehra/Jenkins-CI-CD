@@ -12,7 +12,7 @@ In this Project, we will build a simple Node.js app that hosted on GCP VM instan
 
 ### VM Setup:
 
-- Log into your GCP console search for and Compute Engine
+- Log into your GCP console search for Compute Engine
 
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/compute-Engine.png)
 
@@ -33,7 +33,7 @@ sudo apt update
 sudo apt install openjdk-8-jdk openjdk-8-jre
 java -version
 ``` 
-Now we are going to install jenkins in our ubuntu
+- Now we are going to install jenkins in our ubuntu
 
 This is the Debian package repository of Jenkins to automate installation and upgrade. To use this repository, first add the key to your system:
 
@@ -53,6 +53,29 @@ Update your local package index, then finally install Jenkins:
 ```
   sudo apt-get update
   sudo apt-get install jenkins
+  clear
+  service jenkins status
 ```
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/jenkins.png)
 
-Now we are good to go
+Now we are good to **GO**
+
+---
+
+To access the Jenkins dashboard use this your instance IP and port 8080 "http://Instance-IP:8080"
+
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/admin.png)
+
+
+Run this Command to know your Aadministrator Password:
+
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+- Now in the next step choose -> install suggested plugins and wait for the plugins to install.
+
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/plugins.png)
+
+Next create first admin user and provide your admin credentials.(You can use any credentials, I'm using admin)
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/createuser.png)
+
