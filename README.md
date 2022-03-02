@@ -79,3 +79,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 Next create first admin user and provide your admin credentials.(You can use any credentials, I'm using admin)
 ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/createuser.png)
 
+---
+
+NOW, We are in the Jenkins Dashboard.
+ We are going to deploy NodeJS app in Jenkins.
+
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/image.png)
