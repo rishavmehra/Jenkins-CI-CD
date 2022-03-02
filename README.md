@@ -126,3 +126,7 @@ npm run serve
 - If you want to do the Build manually you could click on Build Now which is on the sidebar menu of your JenkinsCICD project
   
   ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/final.png)
+
+### Reuslt:
+http://Instance-IP:8081
+  ![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/final2.png)
