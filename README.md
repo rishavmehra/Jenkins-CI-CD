@@ -13,4 +13,5 @@ In this Project, we will build a simple Node.js app that hosted on GCP VM instan
 ### VM Setup:
 
 Log into your GCP console search for and Compute Engine
-[title](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/compute-Engine.png)
+
+![alt text](https://github.com/rishavmehra/Jenkins-CI-CD/blob/main/images/compute-Engine.png)
